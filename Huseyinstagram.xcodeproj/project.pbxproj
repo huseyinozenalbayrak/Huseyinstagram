@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C011E34B2A7FFCA60013A504 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C011E34A2A7FFCA60013A504 /* CustomCell.swift */; };
+		C03C2D942A7A924400C98B23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C2D932A7A924400C98B23 /* AppDelegate.swift */; };
+		C03C2D962A7A924400C98B23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C2D952A7A924400C98B23 /* SceneDelegate.swift */; };
+		C03C2D982A7A924400C98B23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C2D972A7A924400C98B23 /* ViewController.swift */; };
+		C03C2D9B2A7A924400C98B23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03C2D992A7A924400C98B23 /* Main.storyboard */; };
+		C03C2D9D2A7A924400C98B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03C2D9C2A7A924400C98B23 /* Assets.xcassets */; };
+		C03C2DA02A7A924400C98B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03C2D9E2A7A924400C98B23 /* LaunchScreen.storyboard */; };
+		C03C2DA82A7A92DF00C98B23 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C03C2DA72A7A92DF00C98B23 /* GoogleService-Info.plist */; };
+		C09F435B2A7ADFBD00CA854A /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F435A2A7ADFBD00CA854A /* FeedVC.swift */; };
+		C09F435D2A7ADFCD00CA854A /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F435C2A7ADFCD00CA854A /* UploadVC.swift */; };
+		C09F435F2A7ADFEC00CA854A /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F435E2A7ADFEC00CA854A /* SettingsVC.swift */; };
+		FC20EF49F0283FD5E49CB9EF /* Pods_Huseyinstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2688A1EB61638AF2190E74AF /* Pods_Huseyinstagram.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2688A1EB61638AF2190E74AF /* Pods_Huseyinstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Huseyinstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC1211188BE4DE2695B2C7D /* Pods-Huseyinstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Huseyinstagram.debug.xcconfig"; path = "Target Support Files/Pods-Huseyinstagram/Pods-Huseyinstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		C011E34A2A7FFCA60013A504 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		C03C2D902A7A924400C98B23 /* Huseyinstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huseyinstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03C2D932A7A924400C98B23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C03C2D952A7A924400C98B23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C03C2D972A7A924400C98B23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C03C2D9A2A7A924400C98B23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C03C2D9C2A7A924400C98B23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C03C2D9F2A7A924400C98B23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C03C2DA12A7A924400C98B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C03C2DA72A7A92DF00C98B23 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C09F435A2A7ADFBD00CA854A /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		C09F435C2A7ADFCD00CA854A /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
+		C09F435E2A7ADFEC00CA854A /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		D499355104AC6F8FE467D002 /* Pods-Huseyinstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Huseyinstagram.release.xcconfig"; path = "Target Support Files/Pods-Huseyinstagram/Pods-Huseyinstagram.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C03C2D8D2A7A924400C98B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC20EF49F0283FD5E49CB9EF /* Pods_Huseyinstagram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B3B064E04C08D9A6A583D1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2688A1EB61638AF2190E74AF /* Pods_Huseyinstagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C03C2D872A7A924300C98B23 = {
+			isa = PBXGroup;
+			children = (
+				C03C2D922A7A924400C98B23 /* Huseyinstagram */,
+				C03C2D912A7A924400C98B23 /* Products */,
+				F7411DCE2489BC906A6F29BE /* Pods */,
+				0B3B064E04C08D9A6A583D1F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C03C2D912A7A924400C98B23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C03C2D902A7A924400C98B23 /* Huseyinstagram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C03C2D922A7A924400C98B23 /* Huseyinstagram */ = {
+			isa = PBXGroup;
+			children = (
+				C03C2D932A7A924400C98B23 /* AppDelegate.swift */,
+				C03C2D952A7A924400C98B23 /* SceneDelegate.swift */,
+				C03C2D972A7A924400C98B23 /* ViewController.swift */,
+				C09F435A2A7ADFBD00CA854A /* FeedVC.swift */,
+				C09F435C2A7ADFCD00CA854A /* UploadVC.swift */,
+				C09F435E2A7ADFEC00CA854A /* SettingsVC.swift */,
+				C011E34A2A7FFCA60013A504 /* CustomCell.swift */,
+				C03C2D992A7A924400C98B23 /* Main.storyboard */,
+				C03C2D9C2A7A924400C98B23 /* Assets.xcassets */,
+				C03C2D9E2A7A924400C98B23 /* LaunchScreen.storyboard */,
+				C03C2DA12A7A924400C98B23 /* Info.plist */,
+				C03C2DA72A7A92DF00C98B23 /* GoogleService-Info.plist */,
+			);
+			path = Huseyinstagram;
+			sourceTree = "<group>";
+		};
+		F7411DCE2489BC906A6F29BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BC1211188BE4DE2695B2C7D /* Pods-Huseyinstagram.debug.xcconfig */,
+				D499355104AC6F8FE467D002 /* Pods-Huseyinstagram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C03C2D8F2A7A924400C98B23 /* Huseyinstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03C2DA42A7A924400C98B23 /* Build configuration list for PBXNativeTarget "Huseyinstagram" */;
+			buildPhases = (
+				D5385A71CEAC6BFABECC4BFC /* [CP] Check Pods Manifest.lock */,
+				C03C2D8C2A7A924400C98B23 /* Sources */,
+				C03C2D8D2A7A924400C98B23 /* Frameworks */,
+				C03C2D8E2A7A924400C98B23 /* Resources */,
+				062FD6D596F2D3F1317B195C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Huseyinstagram;
+			productName = Huseyinstagram;
+			productReference = C03C2D902A7A924400C98B23 /* Huseyinstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C03C2D882A7A924400C98B23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C03C2D8F2A7A924400C98B23 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C03C2D8B2A7A924400C98B23 /* Build configuration list for PBXProject "Huseyinstagram" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C03C2D872A7A924300C98B23;
+			productRefGroup = C03C2D912A7A924400C98B23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C03C2D8F2A7A924400C98B23 /* Huseyinstagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C03C2D8E2A7A924400C98B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03C2DA02A7A924400C98B23 /* LaunchScreen.storyboard in Resources */,
+				C03C2DA82A7A92DF00C98B23 /* GoogleService-Info.plist in Resources */,
+				C03C2D9D2A7A924400C98B23 /* Assets.xcassets in Resources */,
+				C03C2D9B2A7A924400C98B23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		062FD6D596F2D3F1317B195C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Huseyinstagram/Pods-Huseyinstagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Huseyinstagram/Pods-Huseyinstagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Huseyinstagram/Pods-Huseyinstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5385A71CEAC6BFABECC4BFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Huseyinstagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C03C2D8C2A7A924400C98B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09F435B2A7ADFBD00CA854A /* FeedVC.swift in Sources */,
+				C03C2D982A7A924400C98B23 /* ViewController.swift in Sources */,
+				C03C2D942A7A924400C98B23 /* AppDelegate.swift in Sources */,
+				C09F435D2A7ADFCD00CA854A /* UploadVC.swift in Sources */,
+				C03C2D962A7A924400C98B23 /* SceneDelegate.swift in Sources */,
+				C011E34B2A7FFCA60013A504 /* CustomCell.swift in Sources */,
+				C09F435F2A7ADFEC00CA854A /* SettingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C03C2D992A7A924400C98B23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C03C2D9A2A7A924400C98B23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C03C2D9E2A7A924400C98B23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C03C2D9F2A7A924400C98B23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C03C2DA22A7A924400C98B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C03C2DA32A7A924400C98B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C03C2DA52A7A924400C98B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BC1211188BE4DE2695B2C7D /* Pods-Huseyinstagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F358VXY4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Huseyinstagram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huseyinozenalbayrak.Huseyinstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C03C2DA62A7A924400C98B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D499355104AC6F8FE467D002 /* Pods-Huseyinstagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F358VXY4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Huseyinstagram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huseyinozenalbayrak.Huseyinstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C03C2D8B2A7A924400C98B23 /* Build configuration list for PBXProject "Huseyinstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03C2DA22A7A924400C98B23 /* Debug */,
+				C03C2DA32A7A924400C98B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03C2DA42A7A924400C98B23 /* Build configuration list for PBXNativeTarget "Huseyinstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03C2DA52A7A924400C98B23 /* Debug */,
+				C03C2DA62A7A924400C98B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C03C2D882A7A924400C98B23 /* Project object */;
+}
