@@ -36,7 +36,7 @@ class ViewController: UIViewController {
                 }
             }
         } else {
-            makeAlert(titleInput: "Error!", messageInput: "Please fill the email and password blanks!")
+            makeAlert(titleInput: "Error", messageInput: "Please fill the email and password blanks!")
         }
     }
     
