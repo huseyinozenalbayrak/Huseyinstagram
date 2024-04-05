@@ -38,11 +38,16 @@ Build and run the project on a simulator or a physical device.
 
 
 # Usage
-Sign Up or Log In: If you're a new user, sign up for an account. Otherwise, log in with your existing credentials.
-Post Photos: Share your photos by uploading them using the app's interface.
-Like Photos: Browse through photos posted by other users and like them to show your appreciation.
-Log Out: When you're done using the app, log out to secure your session.
-Contributing
+**Sign Up or Log In:** If you're a new user, sign up for an account. Otherwise, log in with your existing credentials.
+
+**Post Photos:** Share your photos by uploading them using the app's interface.
+
+**Like Photos:** Browse through photos posted by other users and like them to show your appreciation.
+
+**Log Out:** When you're done using the app, log out to secure your session.
+
+
+# Contributing
 Contributions to this project are welcome! If you have any suggestions, bug fixes, or feature enhancements, feel free to open an issue or create a pull request.
 
 
