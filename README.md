@@ -3,8 +3,11 @@ Huseyinstagram is a simple Instagram clone mobile app written in Swift. It inclu
 
 # Features
 **Authentication:** Users can sign up and log in securely to access the app's features.
+
 **Post Photos:** Users can upload their photos to share with others.
+
 **Like Photos:** Users can like photos posted by other users.
+
 **Log Out:** Users can log out of their accounts to secure their session.
 
 # Technologies Used
