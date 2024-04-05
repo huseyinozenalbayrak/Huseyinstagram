@@ -28,23 +28,23 @@ Huseyinstagram is a simple Instagram clone mobile app written in Swift. It inclu
 
 
 # Installation
-Clone the repository to your local machine:
+- Clone the repository to your local machine:
 ```
 git clone https://github.com/huseyinozenalbayrak/Huseyinstagram.git
 ```
-Open the project folder in Xcode.
+- Open the project folder in Xcode.
 
-Build and run the project on a simulator or a physical device.
+- Build and run the project on a simulator or a physical device.
 
 
 # Usage
-**Sign Up or Log In:** If you're a new user, sign up for an account. Otherwise, log in with your existing credentials.
+- **Sign Up or Log In:** If you're a new user, sign up for an account. Otherwise, log in with your existing credentials.
 
-**Post Photos:** Share your photos by uploading them using the app's interface.
+- **Post Photos:** Share your photos by uploading them using the app's interface.
 
-**Like Photos:** Browse through photos posted by other users and like them to show your appreciation.
+- **Like Photos:** Browse through photos posted by other users and like them to show your appreciation.
 
-**Log Out:** When you're done using the app, log out to secure your session.
+- **Log Out:** When you're done using the app, log out to secure your session.
 
 
 # Contributing
